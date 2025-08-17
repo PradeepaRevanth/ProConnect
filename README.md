@@ -12,8 +12,8 @@ A SwiftUI proof-of-concept demonstrating a professional swipe-based profile scre
 ## 📸 Screenshots
 Here are some previews of the app:
 
-<img src="screenshots/swipe-deck.png" width="300" alt="Swipe Deck Screen" />
-<img src="screenshots/profile-detail.png" width="300" alt="Profile Detail Screen" />
+<img src="Screenshots/swipe-deck.png" width="300" alt="Swipe Deck Screen" />
+<img src="Screenshots/profile-detail.png" width="300" alt="Profile Detail Screen" />
 
 ## 🎥 Screen Recording
 https://github.com/PradeepaRevanth/ProConnect/tree/main/Screenshots/demo.gif
