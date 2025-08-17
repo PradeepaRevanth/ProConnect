@@ -16,7 +16,7 @@ Here are some previews of the app:
 <img src="screenshots/profile-detail.png" width="300" alt="Profile Detail Screen" />
 
 ## 🎥 Screen Recording
-https://github.com/your-username/your-repo/raw/main/screenshots/demo.gif
+https://github.com/PradeepaRevanth/ProConnect/blob/main/ProConnect/Screenshots/demo.gif
 
 *(or use GitHub’s video embed if `.mp4`)*
 
