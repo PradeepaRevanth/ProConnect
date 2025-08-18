@@ -80,6 +80,7 @@
 		274336F52E51F83A002429FC = {
 			isa = PBXGroup;
 			children = (
+				2743375C2E534B5E002429FC /* Assets */,
 				274337582E521D6A002429FC /* Screenshots */,
 				274337002E51F83A002429FC /* ProConnect */,
 				274337132E51F83D002429FC /* ProConnectTests */,
@@ -96,6 +97,13 @@
 				2743371A2E51F83D002429FC /* ProConnectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2743375C2E534B5E002429FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

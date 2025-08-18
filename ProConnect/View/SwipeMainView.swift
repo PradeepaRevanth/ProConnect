@@ -82,7 +82,7 @@ struct SwipeMainView: View {
                     .font(.title2)
             }
             .disabled(vm.lastDecision == nil)
-            .buttonStyle(BtnRefresh())
+            .buttonStyle(ButtonRefresh())
 
             Spacer()
 
@@ -93,7 +93,7 @@ struct SwipeMainView: View {
                 Image(systemName: "xmark")
                     .font(.title)
             }
-            .buttonStyle(BtnCancel())
+            .buttonStyle(ButtonCancel())
 
             Button(action: {
                 guard vm.canSwipe, let top = vm.deck.last else { return }
@@ -102,7 +102,7 @@ struct SwipeMainView: View {
                 Image(systemName: "checkmark")
                     .font(.title)
             }
-            .buttonStyle(BtnPrimary())
+            .buttonStyle(ButtonPrimary())
         }
         .padding(.horizontal)
     }
@@ -110,7 +110,7 @@ struct SwipeMainView: View {
 
 // MARK: - Styles
 
-struct BtnPrimary: ButtonStyle {
+struct ButtonPrimary: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding(22)
@@ -120,7 +120,7 @@ struct BtnPrimary: ButtonStyle {
     }
 }
 
-struct BtnCancel: ButtonStyle {
+struct ButtonCancel: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding(22)
@@ -130,7 +130,7 @@ struct BtnCancel: ButtonStyle {
     }
 }
 
-struct BtnRefresh: ButtonStyle {
+struct ButtonRefresh: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding(18)

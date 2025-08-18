@@ -50,7 +50,15 @@ struct SwipeCardView: View {
                 }
                 Text(profile.profObjective).font(.subheadline).foregroundStyle(.white.opacity(0.95))
                 HStack(spacing: 8) {
-                    Label(profile.city, systemImage: "mappin.and.ellipse")
+                    Label {
+                        Text(profile.city)
+                    } icon: {
+                        Image("location_icon")
+                            .renderingMode(.template)
+                            .resizable()
+                            .frame(width: 15, height: 15)
+                            
+                    }
                     Label(profile.fieldOfWork, systemImage: "briefcase")
                 }
                 .font(.caption)
